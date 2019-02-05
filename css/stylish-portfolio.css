@@ -272,16 +272,20 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+  text-shadow: 1px 1px 2px #1D809F;
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
+  text-shadow: 1px 1px 2px #1D809F;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.2em;
+  text-shadow: 1px 1px 2px #1D809F;
 }
 
 @media (min-width: 992px) {
@@ -300,6 +304,7 @@ h6 {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+    text-shadow: 1px 1px 2px #1D809F;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
