@@ -11,9 +11,9 @@ All projects are works in progress as I refactor code, learn and implement new C
 
 ### Contributing Authors
 All projects were personal projects, except for:
-- *[Parker](https://durmstrang.github.io/Project-1/)* ~contributors include Karol Buczek, Lauren Santosuosso, and Todd Zverloff~
-- *[CuiScene](https://cuiscene.herokuapp.com/)* ~contributors include Youssef Hamid, Matt Frey, and Erin Clancy~
-- *[Allergenius](https://allergenius.herokuapp.com/)* ~contributors include Niki Sams, Erin Clancy, and Sarah Lopriore~
+- [Parker](https://durmstrang.github.io/Project-1/) *contributors include Karol Buczek, Lauren Santosuosso, and Todd Zverloff*
+- [CuiScene](https://cuiscene.herokuapp.com/) *contributors include Youssef Hamid, Matt Frey, and Erin Clancy*
+- [Allergenius](https://allergenius.herokuapp.com/) *contributors include Niki Sams, Erin Clancy, and Sarah Lopriore*
 
 ### License
 This project was built using the MIT license.
