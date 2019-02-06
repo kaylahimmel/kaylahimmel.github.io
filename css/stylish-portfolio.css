@@ -16,6 +16,7 @@ body {
 
 .btn-xl {
   padding:.75rem 1.5rem;
+  letter-spacing: 0.5px;
 }
 
 .content-section {
@@ -39,6 +40,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .text-faded {
@@ -87,7 +89,7 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 2.75rem;
   margin: 0;
   padding: 0;
   color: white;
@@ -95,7 +97,7 @@ h6 {
 }
 
 .masthead h3 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin: 0;
   padding: 0;
   color: white;
@@ -109,10 +111,12 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
     color: white;
-    text-shadow: 1px 1px 2px #1D809F;
+    text-shadow: 2px 2px 4px #1D809F;
   }
   .masthead h3 {
-    font-size: 2.75
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1.5px 1.5px 3px #1D809F;
   }
 }
 
@@ -312,13 +316,14 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+footer.footer .social-link,
+.content-section .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #fff;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
