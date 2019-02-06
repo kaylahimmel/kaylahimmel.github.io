@@ -45,21 +45,6 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -276,14 +261,14 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px #1D809F;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.2em;
   text-shadow: 1px 1px 2px #1D809F;
 }
