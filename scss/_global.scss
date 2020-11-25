@@ -15,8 +15,8 @@ body {
 
 // Content Section
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .content-section-heading {
@@ -25,7 +25,6 @@ body {
   }
   h3 {
     font-size: 1rem;
-    text-transform: uppercase;
   }
 }
 
@@ -64,25 +63,24 @@ h6 {
   position: fixed;
   right: 15px;
   bottom: 15px;
-
   display: none;
-
   width: 50px;
   height: 50px;
-
   text-align: center;
-
-  color: white;
-  // background: fade-out($gray-800, .5);
-
   line-height: 45px;
+  color: #fff;
+  background: #204556;
+
   &:focus,
   &:hover {
-    color: white;
+    color: #204556;
+    border: 1px solid #204556;
   }
+
   &:hover {
-    background: $gray-800;
+    background: #bbeef9;
   }
+
   i {
     font-weight: 800;
   }

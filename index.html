@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kayla Himmelberger - Front End Web Dev & UI/UX</title>
+    <title>Kayla Himmelberger - Software Engineer</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -28,40 +28,59 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
+    <a class="menu-toggle rounded" href="#" tabindex="1">
+      <span class="a11y">Open navigation menu</span> 
       <i class="fas fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Kayla Himmelberger</a>
+          <span>Kayla Himmelberger</span>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
+          <a class="js-scroll-trigger" href="#page-top">
+            <span class="a11y">Navigate to top of page</span> 
+            Home
+          </a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">About</a>
+          <a class="js-scroll-trigger" href="#about">
+            <span class="a11y">Navigate to About section</span> 
+            About
+          </a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#skills">Skills</a>
+          <a class="js-scroll-trigger" href="#skills">
+            <span class="a11y">Navigate to Skills section</span> 
+            Skills
+          </a>
           </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#developmentwork">Development Work</a>
+          <a class="js-scroll-trigger" href="#projects">
+            <span class="a11y">Navigate to Projects section</span> 
+            Projects
+          </a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
+          <a class="js-scroll-trigger" href="#contact">
+            <span class="a11y">Navigate to Contact section</span> 
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
 
-    <!-- Header -->
+    <!-- Hero -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
         <h1 class="mb-1">Kayla Himmelberger</h1>
-        <h3 class="job-title mb-5">
+        <h2 class="job-title mb-5">
           Software Engineer
-        </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn More</a>
+        </h2>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">
+          <span class="a11y">Navigate to About section</span> 
+          Learn More
+        </a>
       </div>
       <div class="overlay"></div>
     </header>
@@ -72,22 +91,23 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2>I’m a Software Engineer with a front-end focus, a background in design, and an eagerness to learn.</h2>
-            <p class="lead mb-5">
-              My graphic design skills have definitely influenced my approach to problem-solving and execution of web 
-              development projects, specifically in terms of being mindful of UX/UI while achieving the desired function of 
-              the finished product. In 2018, I decided to expand my graphic design career by learning web design, and so 
-              enrolled in Case Western Reserve University’s 24-week Full-Stack Coding Bootcamp. I was surprised how much I 
-              enjoyed the challenges and gratification of web development, so my intention of "upskilling" became instead a 
-              full-on career change when I joined the Columbus, OH branch of WillowTree Apps (formerly Dynamit.)
+            <p class="lead mt-3 mb-5">
+              In 2018, I decided to expand my graphic design career by learning web design, and so enrolled in Case Western 
+              Reserve University’s 24-week Full-Stack Coding Bootcamp. I found I truly enjoyed the challenges and 
+              gratification of web development, so my intention of "upskilling" became instead a full-on career change 
+              when I joined the Columbus, OH branch of WillowTree Apps (formerly Dynamit.)
               </br>
               </br>
               Since then, I've continued my rapid growth of coding knowledge and implementation through a variety of client 
-              projects, participating in coding meetup groups, attending virtual conferences, and creating a lengthy set of 
-              goals for myself. I'm also passionate about increasing the number of under-represented groups in software 
-              engineering and technology, particularly women and non-binary engineers, and participate in college 
-              recruiting/networking events to answer future engineers' questions about working as a woman in tech.
+              projects, attending meetups and conferences, and setting long and short-term goals for myself. I'm also 
+              passionate about increasing the number of under-represented groups in software engineering, and participate 
+              in college recruiting/networking events to answer future engineers' questions about working as a woman in tech.
             </p>
-            <a href="img/Himmelberger_Resume.pdf" class="btn btn-primary btn-xl">View Resum&eacute;</a> <!--NEED TO UPLOAD/LINK TO A .PDF OR HTML RESUME HERE-->
+            <!-- Resume -->
+            <a href="img/Himmelberger_Resume.pdf" class="btn btn-primary btn-xl">
+              <span class="a11y">Open resum&eacute; in new window</span> 
+              View Resum&eacute;
+            </a>
           </div>
         </div>
       </div>
@@ -97,55 +117,55 @@
     <section class="content-section bg-primary text-white text-center" id="skills">
       <div class="container"></div>
         <div class="content-section-heading">
-          <h2 class="mb-5">Top Skills Include</h2>
+          <h2 class="mb-5">Top Skills</h2>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 text-white col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fab fa-accessible-icon"></i>
             </span>
-            <h4>
-              <strong>Accessible Development</strong>
-            </h4>
-            <p class="text-faded mb-0 pl-2 pr-2">Mobile-first, accessible apps built with screenreaders, keyboard navigation, and other A11y compliant considerations at the forefront.</p>
+            <h3>
+              Accessibility
+            </h3>
+            <p class="mx-2 mb-0 pl-2 pr-2">Building mobile-first, accessible apps built that meet or exceed WCAG A11y compliance.</p>
           </div>
           
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-4">
+          <div class="col-lg-3 text-white col-md-6 mb-5 mb-md-4">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fab fa-sass"></i>
             </span>
-            <h4>
-              <strong>CSS/Sass</strong>
-            </h4>
-            <p class="text-faded mb-0 pl-2 pr-2">Styling projects with organized stylesheets that follow BEM methodology.</p>
+            <h3>
+              CSS/Sass
+            </h3>
+            <p class="mx-2 mb-0 pl-2 pr-2">Styling projects with organized stylesheets that follow BEM methodology.</p>
           </div>
           
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 text-white col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fab fa-js-square"></i>
             </span>
-            <h4>
-              <strong>JavaScript</strong>
-            </h4>
-            <p class="text-faded mb-0 pl-2 pr-2">Creating concise, easy-to-follow logic and API calls with vanilla JS and jQuery.</p>
+            <h3>
+              JavaScript
+            </h3>
+            <p class="mx-2 mb-0 pl-2 pr-2">Creating concise, easy-to-follow logic and API calls with vanilla JS and jQuery.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 text-white col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="fas fa-laptop-code"></i>
             </span>
-            <h4>
-              <strong>Content Management Systems</strong>
-            </h4>
-            <p class="text-faded mb-0">Developing components and templates for CMS content creators.</p>
+            <h3>
+              Content Management Systems
+            </h3>
+            <p class="mx-2 mb-0">Developing templates, pages, components and documentation for CMS content creators.</p>
           </div>
             
         </div>
       </div>
     </section>
 
-    <!-- developmentwork -->
-    <section class="content-section" id="developmentwork">
+    <!-- Development Work -->
+    <section class="content-section" id="projects">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="mb-5">Recent Projects</h2>
@@ -155,10 +175,11 @@
           <!-- Mizuho -->
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://www.mizuhogroup.com/" target="_blank">
+              <span class="a11y">Open Mizuho project in new tab</span> 
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Mizuho Group Website Migration</h2>
-                  <p class="mb-0">International banking group's site migration to Bloomreach CMS with a complete site redesign.</p>
+                  <h2>Mizuho Group: Website Migration</h2>
+                  <p class="mb-0">Fully redesigned customer-facing, content-editable site recreated on Bloomreach CMS.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/mizuho-hero-worldwide.jpg" alt="Mizuho Financial Group">
@@ -168,9 +189,10 @@
           <!-- White Castle -->
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://www.whitecastle.com/crave-central/recipes" target="_blank">
+              <span class="a11y">Open White Castle project in new tab</span> 
               <span class="caption">
                 <span class="caption-content">
-                  <h2>White Castle - Recipes Page Updates</h2>
+                  <h2>White Castle: Recipes</h2>
                   <p class="mb-0">Content and logic updates to existing fan-favorite slider recipes pages.</p>
                 </span>
               </span>
@@ -181,11 +203,11 @@
           <!-- Parker -->
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://durmstrang.github.io/Project-1/" target="_blank">
+              <span class="a11y">Open Parker project in new tab</span> 
               <span class="caption">
                 <span class="caption-content">
                   <h2>Parker</h2>
-                  <p class="mb-0">U.S. National Park finding app, complete with Mapquest and Leaflet mapping functionality 
-                    and API calls to the National Park Service and Open Weather.
+                  <p class="mb-0">U.S. National Park finding app, complete with mapping, weather, and park data.
                   </p>
                 </span>
               </span>
@@ -196,11 +218,11 @@
           <!-- FrndFndr -->
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://frnd-fndr-project.herokuapp.com/" target="_blank">
+              <span class="a11y">Open Friend Finder project in new tab</span> 
               <span class="caption">
                 <span class="caption-content">
                   <h2>FrndFndr</h2>
-                  <p class="mb-0">Friend matching app built with HTML, jQuery, and Bootstrap CSS that makes a call to a 
-                    custom API.</p>
+                  <p class="mb-0">Friend matching quiz with a custom API.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/frndfndr_700x476_frndfndr.png" alt="FrndFndr: Friend-Matching App">
@@ -217,22 +239,26 @@
         <div class="container text-center">
           <ul class="list-inline mb-5">
             <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="mailto:kaylahimmelberger@gmail.com">
+              <a class="social-link rounded-circle mr-3" href="mailto:kaylahimmelberger@gmail.com" target="_blank" rel="noopener noreferrer">
+                <span class="a11y">Send an email in new tab</span> 
                 <i class="far fa-envelope"></i>
-              </a>
-            </li><li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/kayla-himmelberger-1009b742/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="https://github.com/kaylahimmel" target="_blank">
+              <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/kayla-himmelberger-1009b742/" target="_blank">
+                <span class="a11y">View LinkedIn profile in new tab</span> 
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle mr-3" href="https://github.com/kaylahimmel" target="_blank">
+                <span class="a11y">View GitHub Repositories in new tab</span> 
                 <i class="fab fa-github"></i>
               </a>
             </li>
           </ul>
           <div class="container">
-            <p class="text-white small mb-0">Copyright &copy; Kayla Himmelberger 2020</p>
+            <p class="text-white small mb-0">Copyright &copy; Kayla Himmelberger 2020. <span><i>This site meets WCAG AA A11y guidelines.</i></span></p>
           </div>
         </div>
       </section>   
@@ -240,6 +266,7 @@
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <span class="a11y">Scroll back to top of page</span> 
       <i class="fas fa-chevron-up"></i>
     </a>
 

@@ -1,33 +1,24 @@
 a {
-  color: $primary;
+  color: #204556;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 10%);
+    color: #155d74;
   }
 }
 
 .btn-primary {
-  background-color: $primary !important;
-  border-color: $primary !important;
-  color: $white !important;
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
-  }
-}
+  background-color: #BBEEF9;
+  border-color: #BBEEF9;
+  color: #204556;
 
-.btn-secondary {
-  background-color: $secondary !important;
-  border-color: $secondary !important;
-  color: $white !important;
   &:hover,
   &:focus,
-  &:active {
-    background-color: darken($secondary, 10%) !important;
-    border-color: darken($secondary, 10%) !important;
+  &:active,
+  &.active {
+    background-color: #204556;
+    border-color: #BBEEF9;
+    color: #BBEEF9;
   }
 }
 
@@ -37,9 +28,66 @@ a {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: #0A5E71;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: #204556;
+}
+
+.row {
+  margin-right: 0;
+  padding: 0 1rem 0;
+  color: #204556;
+}
+
+@media(min-width: 992px) {
+  .row {
+    padding: 0 2.75rem 0;
+  }
+}
+
+.masthead h1,
+.masthead h2.job-title,
+.caption-content {
+  text-shadow: 1px 1px 2px #204556;
+}
+
+.caption-content p {
+  display: none;
+}
+
+@media(min-width: 375px) {
+  .caption-content p {
+    display: block;
+  }
+}
+
+.content-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+}
+
+.a11y {
+  border: 0;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
 }

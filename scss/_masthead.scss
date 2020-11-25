@@ -1,7 +1,7 @@
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: table;
+  display: flex;
   width: 100%;
   height: auto;
   padding-top: 8rem;
@@ -17,14 +17,18 @@
     padding: 0;
   }
   
+  h2.job-title {
+    font-size: 1.7rem;
+  }
+
   @media (min-width: 992px) {
     height: 100vh;
     h1 {
       font-size: 5.5rem;
     }
-  }
 
-  .job-title {
-    font-size: 1.5rem;
+    h2.job-title {
+      font-size: 3rem;
+    }
   }
 }
